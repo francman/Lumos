@@ -1,0 +1,99 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "Lumos"
+Date "2021-06-06"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 60BD8B5F
+P 6500 4100
+F 0 "Q?" H 6691 4146 50  0000 L CNN
+F 1 "2N2219" H 6691 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 6700 4025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 6500 4100 50  0001 L CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 60BD8C22
+P 7400 4100
+F 0 "Q?" H 7591 4146 50  0000 L CNN
+F 1 "2N2219" H 7591 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 7600 4025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 7400 4100 50  0001 L CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 60BD8CE2
+P 8300 4100
+F 0 "Q?" H 8491 4146 50  0000 L CNN
+F 1 "2N2219" H 8491 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 8500 4025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 8300 4100 50  0001 L CNN
+	1    8300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BD8D32
+P 8400 4650
+F 0 "#PWR?" H 8400 4400 50  0001 C CNN
+F 1 "GND" H 8405 4477 50  0000 C CNN
+F 2 "" H 8400 4650 50  0001 C CNN
+F 3 "" H 8400 4650 50  0001 C CNN
+	1    8400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BD8D4A
+P 7500 4600
+F 0 "#PWR?" H 7500 4350 50  0001 C CNN
+F 1 "GND" H 7505 4427 50  0000 C CNN
+F 2 "" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BD8D5B
+P 6600 4550
+F 0 "#PWR?" H 6600 4300 50  0001 C CNN
+F 1 "GND" H 6605 4377 50  0000 C CNN
+F 2 "" H 6600 4550 50  0001 C CNN
+F 3 "" H 6600 4550 50  0001 C CNN
+	1    6600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4300 8400 4650
+Wire Wire Line
+	7500 4300 7500 4600
+Wire Wire Line
+	6600 4300 6600 4550
+$Comp
+L Device:LED_ARGB D?
+U 1 1 60BD8E02
+P 7500 2800
+F 0 "D?" V 7546 2470 50  0000 R CNN
+F 1 "LED_ARGB" V 7455 2470 50  0000 R CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+	1    7500 2800
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
